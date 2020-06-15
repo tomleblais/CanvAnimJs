@@ -1,0 +1,34 @@
+{
+  "name": "canvanim",
+  "version": "0.0.1",
+  "description": "Improve your canvas by using dynamic items.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "jsdoc-json": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "jsdoc": "jsdoc --template ./node_modules/jsdoc-json --destination docs/json/jsdoc.json --recurse index.js",
+    "convert": "tsc index.ts -t ES6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeTomium/CanvAnimJs.git"
+  },
+  "keywords": [
+    "canvas",
+    "dynamic",
+    "front-end",
+    "events"
+  ],
+  "author": "LeTomium",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeTomium/CanvAnimJs/issues"
+  },
+  "homepage": "https://github.com/LeTomium/CanvAnimJs#readme"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18.35mm"
+   height="18.35mm"
+   viewBox="0 0 18.35 18.35"
+   version="1.1"
+   id="svg1124"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="icon.svg">
+  <defs
+     id="defs1118" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-10.331013"
+     inkscape:cy="20.804656"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1121">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.064919,-73.44968)">
+    <g
+       id="g2316"
+       inkscape:export-xdpi="44.290001"
+       inkscape:export-ydpi="44.290001"
+       transform="matrix(0.99987994,0,0,1.0025554,0.0066111,-0.23458265)">
+      <path
+         sodipodi:open="true"
+         d="m 63.035852,91.720404 a 9.1761017,9.1516142 0 0 1 -7.89145,-10.274273 9.1761017,9.1516142 0 0 1 10.301746,-7.870413 9.1761017,9.1516142 0 0 1 7.891496,10.274238 9.1761017,9.1516142 0 0 1 -10.301712,7.870458"
+         sodipodi:end="1.7025058"
+         sodipodi:start="1.7025146"
+         sodipodi:ry="9.1516142"
+         sodipodi:rx="9.1761017"
+         sodipodi:cy="82.648064"
+         sodipodi:cx="64.24102"
+         sodipodi:type="arc"
+         id="path2307"
+         style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.10634167;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text988"
+         y="86.513687"
+         x="58.270386"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3b4854;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#3b4854;fill-opacity:1;stroke-width:0.26458332"
+           y="86.513687"
+           x="58.270386"
+           id="tspan986"
+           sodipodi:role="line">C</tspan></text>
+      <text
+         id="text992"
+         y="86.657913"
+         x="64.252258"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ee4d36;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#ee4d36;fill-opacity:1;stroke-width:0.26458332"
+           y="86.657913"
+           x="64.252258"
+           id="tspan990"
+           sodipodi:role="line">A</tspan></text>
+      <text
+         id="text996"
+         y="88.461182"
+         x="69.292992"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.36222219px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#3b4854;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.36222219px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic Medium';fill:#3b4854;fill-opacity:1;stroke-width:0.26458332"
+           y="88.461182"
+           x="69.292992"
+           id="tspan994"
+           sodipodi:role="line">Js</tspan></text>
+    </g>
+  </g>
+</svg>

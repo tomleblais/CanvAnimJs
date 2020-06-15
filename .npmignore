@@ -1,0 +1,6 @@
+.gitingnore
+.npmignore
+node_modules/
+test/
+docs/
+prebuild.bat

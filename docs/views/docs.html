@@ -1,0 +1,42 @@
+<div class="container" id="docs">
+    <div class="aside-container">
+        <ul>
+            <li>
+                General
+                <a href="#/docs/general/welcome/">Welcome</a>
+                <a href="#/docs/general/updates/">Updates</a>
+            </li>
+            <li>
+                Examples
+                <a href="#/docs/examples/BouncingBall">Bouncing Ball</a>
+                <a href="#/docs/examples/MiniSoccer">Mini Soccer</a>
+            </li>
+            <li class="class-list">
+                Classes
+            </li>
+        </ul>
+    </div>
+    <div class="content-container" id="content-container">
+        <div>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+    <script>
+        var li = document.querySelector("li.class-list")
+        
+        var xhr = new XMLHttpRequest()
+        xhr.onload = function() {
+            let data = JSON.parse(this.response).docs
+            data.forEach((class_) => {
+                if (class_.kind == "class") {
+                    let a = document.createElement("a")
+                        a.href = `#/docs/classes/${class_.name}`
+                        a.innerText = class_.name
+                    li.appendChild(a)
+                }
+            })
+        }
+        xhr.open("get", "json/jsdoc.json", true)
+        xhr.send()
+    </script>
+</div>

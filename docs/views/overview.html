@@ -1,0 +1,49 @@
+<div id="overview" class="container">
+    <div align="center">
+        <img src="http://aqua-production.000webhostapp.com/img/logo.svg" alt="CanvAnimJs" width="50%">
+    </div>
+    <div class="info-item-container">
+        <div class="info-item">
+            <h2>About</h2>
+            <p>
+                CanvAnim is a front-end library that allows you to improve your HTML canvas by making your items much easier to handle. That use Oriented Object.
+            </p>
+            <p>
+                The main purpose of Canvanim is to simplify the handling of items in your canvas.
+            </p>
+        </div>
+        <div class="info-item">
+            <h2>Example</h2>
+            <pre>
+                <code class="language-js" data-outdent="5">
+                    const el = document.querySelector("canvas.canvanim")
+                    const area = new CanvAnim(el, {
+                        scrollRegion: [50, 50, 50, 50]
+                    })
+        
+                    let rect = area.createRectangle(50, 50, 100, 150, {
+                        backgroundColor: "red",
+                    borderWidth: 2
+                    })
+                    rect.on("click", (e) => {
+                        console.log(`Rectangle in ${e.x}:${e.y}`)
+                    })            
+                </code>
+            </pre>
+        </div>
+        <div class="info-item">
+            <h2>Why?</h2>
+            <ul>    
+                <li>Easy to use</li>
+                <li>Object-oriented</li>
+                <li>Speedy and efficient</li>
+            </ul>
+        </div>
+        <div class="info-item">
+            <h2>Contributor</h2>
+            <p>
+                I am <a href="https://github.com/LeTomium/">LeTomium</a> and I am a French freelancer. In case of problem about the library or its documentation, contact me at the address <u>leblaistom@gmail.com</u>. And finally, I want to wink at the <a href="https://github.com/AquaReborn">AquaReborn</a> organization to which I am one of its members ; )
+            </p>
+        </div>
+    </div>
+</div>

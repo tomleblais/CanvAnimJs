@@ -1,0 +1,148 @@
+@import "reset.css";
+@import "fonts.css";
+@import "variables.less";
+@import "mixins.less";
+
+code {
+    font-family: "Consolas";
+    font-size: @main-font-size;
+    margin: 5px;
+    overflow-x: scroll;
+    line-height: 18px;
+}
+p {
+    display: block;
+    padding: 6px;
+    font-size: @main-font-size;
+    line-height: @main-font-size + 10px;
+}
+b {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+u {
+    text-decoration: underline;
+}
+a {
+    color: @red;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+        .opacity(.8)
+    }
+}
+ul {
+    display: block;
+    li {
+        padding: 6px 2px;
+        margin-left: 10px;
+        padding-left: 0;
+        &::before {
+            content: "•";
+            padding: 0 5px;
+        }
+    }
+}
+h1, h2, h3,
+h4, h5, h6 {
+    display: block;
+    padding: 15px 2px;
+    font-family: "Yu Gothic";
+    font-weight: normal;
+    .user-select(none)
+}
+h1 {
+    font-size: 30px;
+    color: @red;
+}
+h2 {
+    font-size: 25px;
+    color: #000;
+}
+h3 {
+    font-size: 22px;
+    color: #000;
+}
+h4 {
+    font-size: 19px;
+    color: #000;
+}
+h5 {
+    font-size: 16px;
+    color: #000;
+}
+h6 {
+    font-size: 13px;
+    color: #000;
+}
+span.class-name-extra {
+    font-size: 20px;
+    font-family: @main-font;
+    font-weight: bold;
+    cursor: pointer;
+    &::before {
+        content: "extends";
+        font-size: 18px;
+        color: @blue;
+        font-family: @main-font;
+        font-weight: normal;
+        padding: 0 3px;
+        cursor: auto;
+    }
+}
+a.object {
+    font-size: 18px;
+    font-family: @main-font;
+}
+table {
+    margin: 5px;
+    text-align: center;
+    th, td {
+        padding: 10px 20px;
+        border: 1px solid #ededed;
+        line-height: 1.15;
+        vertical-align: middle;
+    }
+    th {
+        text-transform: uppercase;
+        color: @blue;
+        background-color: #ededed;
+        .user-select(none)
+    }
+    // td {
+    // }
+}
+
+.docs() {
+    color: @blue;
+    font-family: @main-font;
+    font-weight: bold;
+    margin-right: 2px;
+    font-size: 18px;
+}
+
+.docs-type {
+    &::before {
+        content: "Type:";
+        .docs()
+    }
+}
+.docs-returns {
+    &::before {
+        content: "Returns:";
+        .docs()
+    }
+}
+.docs-object {
+    .docs();
+    color: @red;
+}
+.docs-extends {
+    &::before {
+        content: "extends";
+        .docs();
+        margin: 0 5px;
+    }
+}

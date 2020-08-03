@@ -1965,3 +1965,4 @@ function includes(arr, element) {
         return value == element;
     });
 }
+module.exports.CanvAnim = CanvAnim

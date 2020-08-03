@@ -1,6 +1,6 @@
 {
   "name": "canvanim",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Improve your canvas by using dynamic items.",
   "main": "index.js",
   "directories": {
@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "jsdoc": "jsdoc --template ./node_modules/jsdoc-json --destination docs/json/jsdoc.json --recurse index.js",
-    "convert": "tsc index.ts -t ES6"
+    "convert": "tsc index.ts -t ES6 && echo module.exports.CanvAnim = CanvAnim>>index.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/LeTomium/CanvAnimJs/issues"
   },
-  "homepage": "https://github.com/LeTomium/CanvAnimJs#readme"
+  "homepage": "https://letomium.github.io/CanvAnimJs/#/"
 }
